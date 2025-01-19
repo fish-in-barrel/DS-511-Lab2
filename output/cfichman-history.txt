@@ -1,326 +1,3 @@
-ssv = read.csv('cfichman-chap2-space-sep.csv', sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-space-sep.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv = read.table('cfichman-chap2-space-sep.csv', header = TRUE)
-ssv = read.csv('cfichman-chap2-space-sep.csv', sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-space-sep.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv = read.table('cfichman-chap2-space-sep.csv', header = TRUE)
-ssv = read.csv('cfichman-chap2-space-sep.csv', sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-space-sep.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv = read.table('cfichman-chap2-space-sep.csv', header = TRUE)
-ssv = read.csv('cfichman-chap2-space-sep.csv', sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv = read.table('cfichman-chap2-space-sep.csv', header = TRUE)
-ssv = read.csv('cfichman-chap2-space-sep.csv', sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv = read.table('cfichman-chap2-space-sep.csv', header = TRUE)
-ssv = read.csv('cfichman-chap2-space-sep.csv', sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv_path = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv = read.csv(ssv_path, sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv_path = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv = read.csv(ssv_path, sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv_path = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv = read.csv(ssv_path, sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv_path = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv = read.csv(ssv_path, sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv_path = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv = read.csv(ssv_path, sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-ssv_path = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv = read.csv(ssv_path, sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-csv2_path = 'cfichman-chap2-csv2.csv'
-csv2_data = read.csv2(csv2_path)
-csv2_data
-ssv_path = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv = read.csv(ssv_path, sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-csv2_path = 'cfichman-chap2-csv2.csv'
-csv2_data = read.csv(csv2_path, row.names = 1, sep = '\t')
-csv2_data
-grass = read.csv('cfichman-chap2-na.csv', row.names = 1, sep = '\t')
-grass = read.csv('cfichman-chap2-na.csv', row.names = 1, sep = '\t')
-grass
-ls()
-ls(pattern = 'b')
-ls(pattern = 'd')
-ls(pattern = 'd')
-ls(pattern = 'da')
-ls(pattern = 'd')
-'Refine search'
-ls(pattern = 'da')
-ls(pattern = 'd')
-ls(pattern = 'da')
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '\n$') # only data ending with a digit
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '3$') # only data ending with a 3
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '1$') # only data ending with a 1
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '1$') # only data ending with a 1
-ls(pattern = '^d|^c') #only data starting with a d or a c
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '1$') # only data ending with a 1
-ls(pattern = '^d|^c') #only data starting with a d or a c
-ls(pattern = 'd.3') # wildcard
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '1$') # only data ending with a 1
-ls(pattern = '^d|^c') #only data starting with a d or a c
-ls(pattern = 'data.') # wildcard
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '1$') # only data ending with a 1
-ls(pattern = '^d|^c') #only data starting with a d or a c
-ls(pattern = 'data.') # wildcard for one place
-ls(pattern = 'd..s') # two periods is a glob wildcard
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '1$') # only data ending with a 1
-ls(pattern = '^d|^c') #only data starting with a d or a c
-ls(pattern = 'data.') # wildcard for one place
-ls(pattern = 'd..a') # two periods is a glob wildcard
-list = c(1,2,3,4)
-rm(list)
-remove(list = ls(pattern = '^data.$'))
-list = c(1,2,3,4)
-rm(list)
-remove(list = ls(pattern = '^data.$'))
-ls()
-list = c(1,2,3,4)
-ls(pattern = 'list')
-rm(list)
-ls(pattern = '^data.$)
-remove(list = ls(pattern = '^data.$'))
-ls(pattern = '^data.$)
-list = c(1,2,3,4)
-ls(pattern = 'list')
-rm(list)
-ls(pattern = '^data.$')
-remove(list = ls(pattern = '^data.$'))
-ls(pattern = '^data.$')
-data1 = c(3, 5, 7, 5, 3, 2, 6, 8, 5, 6, 9)
-data1
-data2 = c(data1, 4, 5, 7, 3, 4)
-data2
-data1 = c(6, 7, 6, 4, 8, data1)
-data1
-day1 = c('Mon', 'Tue', 'Wed', 'Thu')
-day1
-mix = c(data1, day1)
-mix
-data3 = scan()
-data3
-day2 = scan(what='character')
-day2
-data4 = scan(sep = ',')
-data1 = c(3, 5, 7, 5, 3, 2, 6, 8, 5, 6, 9)
-data1
-data2 = c(data1, 4, 5, 7, 3, 4)
-data2
-data1 = c(6, 7, 6, 4, 8, data1)
-data1
-day1 = c('Mon', 'Tue', 'Wed', 'Thu')
-day1
-mix = c(data1, day1)
-mix
-data3 = scan()
-data3 = scan()
-data4 = scan(sep = ',')
-#23,17,12.5,11,17,12,14.5,9
-#11,9,12.5,14.5,17,8,21
-data4
-"Jan","Feb","Mar","Apr","May","Jun"
-"Jul","Aug","Sep","Oct","Nov","Dec"
-data5 = scan(sep = ',', what = 'char')
-#"Jan","Feb","Mar","Apr","May","Jun"
-#"Jul","Aug","Sep","Oct","Nov","Dec"
-data5
-getwd()
-data6 = scan(sep = ',', file = 'cfichman-chap2-numeric-input.txt')
-data6
-data5 = scan(sep = ',', what = 'char')
-#"Jan","Feb","Mar","Apr","May","Jun"
-#"Jul","Aug","Sep","Oct","Nov","Dec"
-data5
-getwd()
-data6 = scan(sep = ',', file = 'cfichman-chap2-numeric-input.txt')
-data6
-setwd('..')
-getwd()
-cwd_contents = dir()
-all_cwd_contents = dir(all.files = TRUE)
-desktop_contents = dir('Desktop')
-CTU_courses = dir('../../')
-print("CWD:")
-print(cwd_contents)
-print("ALL CWD:")
-print(all_cwd_contents)
-print("Desktop: ")
-print(desktop_contents)
-print("CTU: ")
-print(CTU_courses)
-list.files()
-data7 = scan(sep=',', file.choose())
-data7
-data8 = scan('cfichman-chap2-text-input.txt', what = 'char', sep = ',')
-data8
-fw = read.csv('cfichman-chap2-table-2-2.csv')
-fw
-ssv_path = 'cfichman-chap2-space-sep.csv'
-ssv = read.table(ssv_path, header = TRUE)
-ssv = read.csv(ssv_path, sep = ' ')
-ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
-tsv = read.delim(tsv_path)
-tsv = read.csv(tsv_path, sep = '\t')
-tsv = read.table(tsv_path, header=TRUE, sep = '\t')
-tsv
-csv2_path = 'cfichman-chap2-csv2.csv'
-csv2_data = read.csv(csv2_path, row.names = 1, sep = '\t')
-csv2_data
-grass = read.csv('cfichman-chap2-na.csv', row.names = 1, sep = '\t')
-grass
-ls()
-ls(pattern = 'd')
-ls(pattern = 'da')
-ls(pattern = '^d') # only data starting with d
-ls(pattern = '1$') # only data ending with a 1
-ls(pattern = '^d|^c') #only data starting with a d or a c
-ls(pattern = 'data.') # wildcard for one place
-list = c(1,2,3,4)
-ls(pattern = 'list')
-rm(list)
-ls(pattern = '^data.$')
-remove(list = ls(pattern = '^data.$'))
-ls(pattern = '^data.$')
-grass2 = read.csv('cfichman-chap2-grass.csv', as.is = 2)
-grass2 = read.csv('cfichman-chap2-grass.csv', sep='\t', as.is = 2)
-grass2
-data7 = scan(sep=',', file.choose())
-data7
-data7i = as.integer(data7)
-data7i
-data7n = as.numeric(data7i)
-data7n
-data7c = as.character(data7)
-data7c
-cut
-grass2 = read.csv('cfichman-chap2-grass.csv', sep='\t', as.is = 2)
-grass2
-grass2.cut
-grass2['cut']
-cut = grass2['cut']
-cut = grass2['cut']
-cut
-cut_n = as.numeric(cut)
-cut = grass2['cut'].values
-cut = c(grass2['cut'])
-cut
-cut_n = as.numeric(cut)
-cut = grass2['cut']
-cut
-cut_n = as.numeric(cut)
-cut = c(grass2['cut'])
-cut
-cut_n = as.numeric(cut)
-cut = c(grass2['cut'])
-cut
-cut.n = as.numeric(cut)
-cut_data = c(grass2['cut'])
-cut_data
-cut_n = as.numeric(cut)
-cut_data = c(grass2['cut'])
-cut_data
-cut_n = as.numeric(cut_data)
-data8
-data8 = scan('cfichman-chap2-text-input.txt', what = 'char', sep = ',')
-data8
-data8
-data8n = as.numeric(data8)
-data8
-data8n = as.numeric(data8)
-data8n
-data8
-data8n = as.numeric(data8)
-data8n
-data8c = as.numeric(as.factor(data8))
 data8c
 cut_data = c(grass2['cut'])
 cut_data
@@ -510,3 +187,326 @@ class(day1)
 class(data7i)
 history(max.show = 25)
 savehistory(file = 'cfichman-history.txt')
+history()
+Sys.setenv('R_HISTSIZE' = 512)
+save(grass2, file = 'cfichman-save-file-object.txt')
+save(data7i,data7nt,data7c, file = 'cfichman-save-file-list.txt')
+save(list = ls(pattern = '^data.$', file = 'cfichman-save-file-pattern.txt'))
+save(grass2, file = 'cfichman-save-file-object.txt')
+save(data7i,data7nt,data7c, file = 'cfichman-save-file-list.txt')
+save(list = ls(pattern = '^data.$'), file = 'cfichman-save-file-pattern.txt')
+save(list = ls(all=TRUE), file = 'cfichman-save-all.txt')
+save.image(file = "cfichman-lab2-image")
+save(grass2, file = 'cfichman-save-file-object')
+save(data7i,data7nt,data7c, file = 'cfichman-save-file-list')
+save(list = ls(pattern = '^data.$'), file = 'cfichman-save-file-pattern')
+save(list = ls(all=TRUE), file = 'cfichman-save-all')
+save.image(file = "cfichman-lab2-image")
+ls()
+savedata = c(9,2,4,6,5,9,2,1,1,7)
+save(savedata, file = 'cfichman-savedata-test.Rdata')
+rm(savedata)
+load(file='cfichman-savedata-test.Rdata')
+load(file = file.choose())
+savedata
+data7
+write(data7, file = 'cfichman-lab2-data7.txt', sep = ',')
+save(grass2, file = 'cfichman-save-file-object.Rdata')
+save(data7i,data7nt,data7c, file = 'cfichman-save-file-list.Rdata')
+save(list = ls(pattern = '^data.$'), file = 'cfichman-save-file-pattern.Rdata')
+save(list = ls(all=TRUE), file = 'cfichman-save-all.Rdata')
+save.image(file = "cfichman-lab2-image.Rdata")
+write(data7, file = 'cfichman-lab2-data7-2.txt', sep = ',', ncolumns = length(data7))
+write(data7, file = 'cfichman-lab2-data7-2.txt', sep = ',', ncolumns = length(data7))
+cat(data7, 'cfichman-lab2-data7-2.txt')
+write(data7, file = 'cfichman-lab2-data7-2.txt', sep = ',', ncolumns = length(data7))
+cat(data7, file='cfichman-lab2-data7-2.txt')
+write.table(birds, file='cfichman-lab2-birds.txt', row.names = TRUE, sep = ' ', col.names = TRUE)
+write.csv(birds, file ='cfichman-lab2-birds.csv', row.names = TRUE, sep = ',', col.names = TRUE)
+write.table(birds, file='cfichman-lab2-birds.txt', row.names = TRUE, sep = ' ', col.names = TRUE)
+write.csv(birds, file ='cfichman-lab2-birds.csv', row.names = TRUE, col.names = TRUE)
+write.table(birds, file='cfichman-lab2-birds.txt', row.names = TRUE, sep = ' ', col.names = TRUE)
+write.csv(birds, file ='cfichman-lab2-birds.csv', row.names = TRUE)
+dput(data1, file = 'cfichman-lab2-object-save.txt')
+dget('cfichman-lab2-object-save.txt')
+ex1.mow = c(12,15,17,11,15)
+ex1.unmow = c(8,9,7,9)
+ex1.mow = c(12,15,17,11,15)
+ex1.unmow = c(8,9,7,9)
+ex1
+ex1.mow <- c(12,15,17,11,15)
+ex1.unmow <- c(8,9,7,9)
+ex1
+ex1 = list()
+ex1.mow <- c(12,15,17,11,15)
+ex1.unmow <- c(8,9,7,9)
+ex1 = list()
+ex1.mow <- c(12,15,17,11,15)
+ex1.unmow <- c(8,9,7,9)
+ex1
+3 + 9 + 12 - 7
+3 + 9 + 12 - 7
+12 + 17/2 - 3/4 * 2.5
+(12 + 17/2 - 3/4) * 2.5
+ans1 = 23 + 14/2 - 18 + (7 * pi/2)
+ans1 = 23 + 14/2 - 18 + (7 * pi/2)
+ans1
+ans1 = 23 + 14/2 - 18 + (7 * pi/2)
+ans1
+ans2 = 13 + 11 + (17 - 4/7)
+ans1 + ans2 / 2
+ans3 = ans2 + 9 - 2 + pi
+ans4 <- 3 + 5
+ans5 <- ans1 * ans2
+ans3 + pi / ans4 -> ans6
+ans1
+ans2
+ans3
+ans4
+ans5
+ans6
+ans1 = 23 + 14/2 - 18 + (7 * pi/2)
+ans1
+ans2 = 13 + 11 + (17 - 4/7)
+ans1 + ans2 / 2
+ans3 = ans2 + 9 - 2 + pi
+ans4 <- 3 + 5
+ans5 <- ans1 * ans2
+ans3 + pi / ans4 -> ans6
+ans1
+ans2
+ans3
+ans4
+ans5
+ans6
+ans1 = 23 + 14/2 - 18 + (7 * pi/2)
+ans1
+ans2 = 13 + 11 + (17 - 4/7)
+ans1 + ans2 / 2
+ans3 = ans2 + 9 - 2 + pi
+ans4 <- 3 + 5
+ans5 <- ans1 * ans2
+ans3 + pi / ans4 -> ans6
+ans1
+ans2
+ans3
+ans4
+ans5
+ans6
+ex1 = list(mow <- c(12,15,17,11,15),unmow <- c(8,9,7,9))
+ex1
+ex1 = list(mow <- c(12,15,17,11,15),unmow <- c(8,9,7,9))
+ex1.mow
+ex1 = list(names=c('mow','unmow'),mow <- c(12,15,17,11,15),unmow <- c(8,9,7,9))
+ex1.mow
+ex1 = list(names=c('mow','unmow'),mow <- c(12,15,17,11,15),unmow <- c(8,9,7,9))
+ex1
+ex_list = list(mow = c(12,15,17,11,15),unmow = c(8,9,7,9))
+ex_list = list(mow = c(12,15,17,11,15),unmow = c(8,9,7,9))
+ex_list = list(mow = c(12,15,17,11,15),unmow = c(8,9,7,9))
+ex_list
+ex_list = list(mow = c(12,15,17,11,15),unmow = c(8,9,7,9))
+ex_list
+str(ex_list)
+ex_stack = stack(ex_list)
+ex_stack = stack(ex_list)
+names(ex_stack) = c('numbers','sample')
+ex_stack = stack(ex_list)
+names(ex_stack) = c('numbers','sample')
+ex_stack
+unstack(ex_stack)
+unstack(ex_stack)
+new_list = as.list(unstack(ex_stack))
+ex_list = as.list(c(12,15,17,11,15),c(8,9,7,9))
+names(ex_list) = c('mow', 'unmow')
+ex_list
+ex_list = c(c(12,15,17,11,15),c(8,9,7,9))
+names(ex_list) = c('mow', 'unmow')
+ex_list
+ex_list = list(c(12,15,17,11,15),c(8,9,7,9))
+names(ex_list) = c('mow', 'unmow')
+ex_list
+list2 = as.list(data7,data7c,data7i,data7n,data7nt)
+names(list2) = c('o','c','i','n','nt')
+list2 = as.list(data7,data7c,data7i,data7n,data7nt)
+names(list2) = c('o','c','i','n','nt')
+list2
+list2 = list(as.list(data7,data7c,data7i,data7n,data7nt))
+names(list2) = c('o','c','i','n','nt')
+list2 = as.list(data7,data7c,data7i,data7n,data7nt)
+names(list2) = c('o','c','i','n','nt')
+list2
+list2 = as.list(grass2)
+list2
+list2 = as.list(grass2)
+names(list2) = c('idx','species','cut')
+list2
+str(ex_list)
+ex_stack = stack(ex_list)
+names(ex_stack) = c('numbers','sample')
+ex_stack
+pi * 2^3 - sqrt(4)
+abs(12-17*2/3-9)
+factorial(4)
+log(2,10)
+log(2,base=10)
+log10(2)
+log(2)
+exp(0.6931472)
+log10(2)
+10^0.30103
+sin(45 * pi / 180)
+asin(0.7071068) * 180 / pi
+3 + 9 + 12 - 7
+12 + 17/2 - 3/4 * 2.5
+(12 + 17/2 - 3/4) * 2.5
+pi * 2^3 - sqrt(4)
+abs(12-17*2/3-9)
+factorial(4)
+log(2,10)
+log(2,base=10)
+log10(2)
+log(2)
+exp(0.6931472)
+log10(2)
+10^0.30103
+sin(45 * pi / 180)
+asin(0.7071068) * 180 / pi
+source("~/.active-rstudio-document", echo=TRUE)
+ans1 = 23 + 14/2 - 18 + (7 * pi/2)
+ans1
+ans2 = 13 + 11 + (17 - 4/7)
+ans1 + ans2 / 2
+ans3 = ans2 + 9 - 2 + pi
+ans4 <- 3 + 5
+ans5 <- ans1 * ans2
+ans3 + pi / ans4 -> ans6
+ans1
+ans2
+ans3
+ans4
+ans5
+ans6
+mix = c(data1, day1)
+mix
+data3 = scan()
+#6 7 8 7 6 3 8 9 10 7
+#6 9
+data3
+day1 = c('Mon', 'Tue', 'Wed', 'Thu')
+day1
+data1 = c(3, 5, 7, 5, 3, 2, 6, 8, 5, 6, 9)
+data1
+data2 = c(data1, 4, 5, 7, 3, 4)
+data2
+data1 = c(6, 7, 6, 4, 8, data1)
+data1
+data1 = c(3, 5, 7, 5, 3, 2, 6, 8, 5, 6, 9)
+data1
+day1 = c('Mon', 'Tue', 'Wed', 'Thu')
+day1
+mix = c(data1, day1)
+mix
+source("~/.active-rstudio-document", echo=TRUE)
+data3 = scan()
+#6 7 8 7 6 3 8 9 10 7
+#6 9
+data3
+data4 = scan(sep = ',')
+#23,17,12.5,11,17,12,14.5,9
+#11,9,12.5,14.5,17,8,21
+data4
+getwd()
+data6 = scan(sep = ',', file = 'input/cfichman-chap2-numeric-input.txt')
+data6
+#setwd('..')
+#getwd()
+cwd_contents = dir()
+all_cwd_contents = dir(all.files = TRUE)
+desktop_contents = dir('Desktop')
+CTU_courses = dir('../../')
+print("CWD:")
+print(cwd_contents)
+print("ALL CWD:")
+print(all_cwd_contents)
+print("Desktop: ")
+print(desktop_contents)
+print("CTU: ")
+print(CTU_courses)
+list.files()
+data7 = scan(sep=',', file.choose())
+fw = read.csv('input/cfichman-chap2-table-2-2.csv')
+fw
+ssv_path = 'input/cfichman-chap2-space-sep.csv'
+ssv = read.table(ssv_path, header = TRUE)
+ssv = read.csv(ssv_path, sep = ' ')
+ssv
+tsv_path = 'input/cfichman-chap2-tsv.csv'
+tsv = read.delim(tsv_path)
+tsv = read.csv(tsv_path, sep = '\t')
+tsv = read.table(tsv_path, header=TRUE, sep = '\t')
+tsv
+csv2_path = 'input/cfichman-chap2-csv2.csv'
+csv2_data = read.csv(csv2_path, row.names = 1, sep = '\t')
+csv2_data
+grass = read.csv('input/cfichman-chap2-na.csv', row.names = 1, sep = '\t')
+grass
+ls()
+ls(pattern = 'd')
+ls(pattern = 'da')
+ls(pattern = '^d') # only data starting with d
+ls(pattern = '1$') # only data ending with a 1
+ls(pattern = '^d|^c') #only data starting with a d or a c
+ls(pattern = 'data.') # wildcard for one place
+list = c(1,2,3,4)
+list1 = c("hi","hello")
+list2 = c(5,6,7)
+ls(pattern = 'list')
+rm(list)
+ls(pattern = '^list.$')
+remove(list = ls(pattern = '^list.$'))
+ls(pattern = '^list.$')
+grass2 = read.csv('input/cfichman-chap2-grass.csv', sep='\t', as.is = 2)
+grass2
+data7i = as.integer(data7)
+data7i
+data7n = as.numeric(data7i)
+data7n
+data7c = as.character(data7)
+data7c
+data7nt = as.numeric(data7c)
+data7nt
+data7i = as.integer(data7)
+data7i
+data7n = as.numeric(data7i)
+data7n
+data7c = as.character(data7)
+data7c
+data7nt = as.numeric(data7c)
+data7nt
+cut_data = c(grass2['cut'])
+cut_data
+cut_n = as.numeric(as.factor(cut_data))
+cut_n
+data8
+data8n = as.numeric(data8)
+data8n
+data8c = as.numeric(as.factor(data8))
+data8c
+str(grass2)
+str(grass2[1])
+birds <- matrix(c(47,10,40,2,2,19,3,5,0,2,50,0,10,7,0,46,16,8,4,0,9,3,0,0,2,4,0,6,0,0), nrow = 6, ncol = 5)
+colnames(birds) = c("Garden","Hedgerow","Parkland","Pasture","Woodland")
+rownames(birds) = c("Blackbird","Caffinch","Great Tit","House Sparrow","Robin","Song Thrush")
+str(birds)
+ls.str(pattern = 'data')
+class(grass2)
+class(c(grass2[2]))
+class(birds)
+class(day1)
+class(data7i)
+ls.str(pattern = 'path')
+str(grass2)
+str(grass2[1])
+history(max.show = 25)
+savehistory(file = 'output/cfichman-history.txt')

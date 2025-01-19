@@ -70,7 +70,6 @@ programming languages.  (ex. js - data2 = [...data1,4,5,7,3,4])
 data2 = c(data1, 4, 5, 7, 3, 4)
 data2
 ```
-
 Here we update the data1 dataset by prepending items and re-assigning to the 
 data 1 variable.
 
@@ -78,7 +77,6 @@ data 1 variable.
 data1 = c(6, 7, 6, 4, 8, data1)
 data1
 ```
-
 #### Entering Text Items as Data
 
 Below is an example of creating an array of text data.
@@ -149,7 +147,7 @@ load it in with scan. Note that we have to include a separator to read
 individual values correctly.
 
 ```{r}
-data6 = scan(sep = ',', file = 'cfichman-chap2-numeric-input.txt')
+data6 = scan(sep = ',', file = 'input/cfichman-chap2-numeric-input.txt')
 data6
 ```
 You can specify a working directory with the setwd() command. In notebooks, 
@@ -195,7 +193,7 @@ data7
 ```
 Scan text data!
 ```{r}
-data8 = scan('cfichman-chap2-text-input.txt', what = 'char', sep = ',')
+data8 = scan('input/cfichman-chap2-text-input.txt', what = 'char', sep = ',')
 data8
 ```
 ## Reading Bigger Data Files
@@ -206,7 +204,7 @@ I've created a file using table2-2 from the text, and made it comma separated.
 Now we will read it in.
 
 ```{r}
-fw = read.csv('cfichman-chap2-table-2-2.csv')
+fw = read.csv('input/cfichman-chap2-table-2-2.csv')
 fw
 ```
 
@@ -218,17 +216,17 @@ and the example doesn't line up with the description, so I followed the example
 which shows how to include row names.
 
 ```{r}
-ssv_path = 'cfichman-chap2-space-sep.csv'
+ssv_path = 'input/cfichman-chap2-space-sep.csv'
 ssv = read.table(ssv_path, header = TRUE)
 ssv = read.csv(ssv_path, sep = ' ')
 ssv
-tsv_path = 'cfichman-chap2-tsv.csv'
+tsv_path = 'input/cfichman-chap2-tsv.csv'
 tsv = read.delim(tsv_path)
 tsv = read.csv(tsv_path, sep = '\t')
 tsv = read.table(tsv_path, header=TRUE, sep = '\t')
 tsv
 
-csv2_path = 'cfichman-chap2-csv2.csv'
+csv2_path = 'input/cfichman-chap2-csv2.csv'
 csv2_data = read.csv(csv2_path, row.names = 1, sep = '\t')
 csv2_data
 ```
@@ -236,7 +234,7 @@ csv2_data
 #### Missing Values in Data Files
 
 ```{r}
-grass = read.csv('cfichman-chap2-na.csv', row.names = 1, sep = '\t')
+grass = read.csv('input/cfichman-chap2-na.csv', row.names = 1, sep = '\t')
 grass
 ```
 ## Viewing Named Objects
@@ -282,7 +280,7 @@ ls(pattern = '^list.$')
 Here we read in a mix of data that interprets which data type to use.
 
 ```{r}
-grass2 = read.csv('cfichman-chap2-grass.csv', sep='\t', as.is = 2)
+grass2 = read.csv('input/cfichman-chap2-grass.csv', sep='\t', as.is = 2)
 grass2
 ```
 
@@ -324,9 +322,6 @@ data8c
 
 ```{r}
 str(grass2)
-```
-
-```{r}
 str(grass2[1])
 ```
 ```{r}
@@ -336,9 +331,9 @@ rownames(birds) = c("Blackbird","Caffinch","Great Tit","House Sparrow","Robin","
 
 str(birds)
 ```
-List all objects and show their structure
+List path objects and show their structure
 ```{r}
-ls.str(pattern = 'data')
+ls.str(pattern = 'path')
 ```
 See what type of data structure the data is:
 ```{r}
@@ -353,23 +348,23 @@ class(data7i)
 
 #### Viewing the previous command history
 ```{r}
-#history(max.show = 25)
+history(max.show = 25)
 ```
 
 ####Saving and Recalling Lists of Commands
 These don't work when building out the HTML for result so they've been commented
 out.
 ```{r}
-#savehistory(file = 'cfichman-history.txt')
-#loadhistory(file = 'cfichman-history.txt')
-#history()
+savehistory(file = 'output/cfichman-history.txt')
+loadhistory(file = 'output/cfichman-history.txt')
+history()
 ```
 
 ### Editing History Files
 
 You can set the max number of history entries with the following in windows.
 ```{r}
-#Sys.setenv('R_HISTSIZE' = 512)
+Sys.setenv('R_HISTSIZE' = 512)
 ```
 
 ## Saving your work in R
@@ -379,15 +374,15 @@ there's workspace in the project.
 
 #### Saving Named Objects
 ```{r}
-save(grass2, file = 'cfichman-save-file-object.Rdata')
-save(data7i,data7nt,data7c, file = 'cfichman-save-file-list.Rdata')
-save(list = ls(pattern = '^data.$'), file = 'cfichman-save-file-pattern.Rdata')
+save(grass2, file = 'output/cfichman-save-file-object.Rdata')
+save(data7i,data7nt,data7c, file = 'output/cfichman-save-file-list.Rdata')
+save(list = ls(pattern = '^data.$'), file = 'output/cfichman-save-file-pattern.Rdata')
 ```
 
 #### Save ALL THE THINGS
 ```{r}
-save(list = ls(all=TRUE), file = 'cfichman-save-all.Rdata')
-save.image(file = "cfichman-lab2-image.Rdata")
+save(list = ls(all=TRUE), file = 'output/cfichman-save-all.Rdata')
+save.image(file = "output/cfichman-lab2-image.Rdata")
 ```
 
 ### Reading Data Files from Disk
@@ -395,46 +390,35 @@ save.image(file = "cfichman-lab2-image.Rdata")
 #### Try it out - Save and Read a Binary Data file to and From Disk
 ```{r}
 ls()
-```
-```{r}
 savedata = c(9,2,4,6,5,9,2,1,1,7)
-```
-```{r}
-save(savedata, file = 'cfichman-savedata-test.Rdata')
-```
-```{r}
-rm(savedata)
-load(file='cfichman-savedata-test.Rdata')
-```
-```{r}
+save(savedata, file = 'output/cfichman-savedata-test.Rdata')
+load(file='output/cfichman-savedata-test.Rdata')
 load(file = file.choose())
-```
-```{r}
 savedata
 ```
 ### Saving Data to Disk as Text Files
 
 ```{r}
 data7
-write(data7, file = 'cfichman-lab2-data7.txt', sep = ',')
+write(data7, file = 'output/cfichman-lab2-data7.txt', sep = ',')
 ```
 ```{r}
-write(data7, file = 'cfichman-lab2-data7-2.txt', sep = ',', ncolumns = length(data7))
-cat(data7, file='cfichman-lab2-data7-2.txt')
+write(data7, file = 'output/cfichman-lab2-data7-2.txt', sep = ',', ncolumns = length(data7))
+cat(data7, file='output/cfichman-lab2-data7-2.txt')
 ```
 
 ### Writing Matrix and Frame Data to Disk
 
 ```{r}
-write.table(birds, file='cfichman-lab2-birds.txt', row.names = TRUE, sep = ' ', col.names = TRUE)
-write.csv(birds, file ='cfichman-lab2-birds.csv', row.names = TRUE)
+write.table(birds, file='output/cfichman-lab2-birds.txt', row.names = TRUE, sep = ' ', col.names = TRUE)
+write.csv(birds, file ='output/cfichman-lab2-birds.csv', row.names = TRUE)
 ```
 
 ### Writing List Objects to Disk
 
 ```{r}
-dput(data1, file = 'cfichman-lab2-object-save.txt')
-dget('cfichman-lab2-object-save.txt')
+dput(data1, file = 'output/cfichman-lab2-object-save.txt')
+dget('output/cfichman-lab2-object-save.txt')
 ```
 ### Converting List Objects to Data Frames
 
